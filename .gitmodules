@@ -1,0 +1,36 @@
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/mustache"]
+	path = bundle/mustache
+	url = git://github.com/juvenn/mustache.vim.git
+[submodule "bundle/unite"]
+	path = bundle/unite
+	url = https://github.com/Shougo/unite.vim.git
+[submodule "bundle/neocomplcache"]
+	path = bundle/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "bundle/vim-fish"]
+	path = bundle/vim-fish
+	url = https://github.com/dag/vim-fish.git
+[submodule "bundle/VimClojure"]
+	path = bundle/VimClojure
+	url = https://github.com/vim-scripts/VimClojure.git
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = git://github.com/tpope/vim-fireplace.git
+[submodule "bundle/vim-classpath"]
+	path = bundle/vim-classpath
+	url = git://github.com/tpope/vim-classpath.git
+[submodule "bundle/vim-clojure-static"]
+	path = bundle/vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static.git
