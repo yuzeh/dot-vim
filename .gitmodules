@@ -1,21 +1,9 @@
-[submodule "bundle/unite"]
-	path = bundle/unite
-	url = https://github.com/Shougo/unite.vim.git
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
-[submodule "bundle/vim-repeat"]
-	path = bundle/vim-repeat
-	url = git://github.com/tpope/vim-repeat.git
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
 	url = git://github.com/tpope/vim-fireplace.git
 [submodule "bundle/vim-classpath"]
 	path = bundle/vim-classpath
 	url = git://github.com/tpope/vim-classpath.git
-[submodule "bundle/vim-clojure-static"]
-	path = bundle/vim-clojure-static
-	url = https://github.com/guns/vim-clojure-static.git
 [submodule "bundle/thrift.vim"]
 	path = bundle/thrift.vim
 	url = https://github.com/sprsquish/thrift.vim.git
