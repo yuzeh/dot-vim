@@ -108,4 +108,9 @@ let g:acp_enableAtStartup = 0
 " Use neocomplcache.
 let g:neocomplcache_enable_at_startup = 1
 
-" autocmd vimenter * NERDTree
+" python-mode options
+let g:pymode_options_max_line_length = 99
+let g:pymode_lint_ignore = 'E251'
+
+" jshint options
+let JSHintUpdateWriteOnly=1
