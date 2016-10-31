@@ -46,12 +46,6 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
-[submodule "bundle/python-mode"]
-	path = bundle/python-mode
-	url = git://github.com/klen/python-mode.git
-[submodule "bundle/jshint.vim"]
-	path = bundle/jshint.vim
-	url = https://github.com/wookiehangover/jshint.vim.git
 [submodule "bundle/vim-lilypond"]
 	path = bundle/vim-lilypond
 	url = https://github.com/matze/vim-lilypond
