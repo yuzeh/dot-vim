@@ -1,4 +1,3 @@
-set rtp+=/opt/twitter/lib/python2.7/site-packages/powerline/bindings/vim
 set shell=/usr/local/bin/zsh
 set nocompatible
 set modeline
@@ -58,8 +57,8 @@ filetype plugin on
 filetype plugin indent on
 autocmd filetype python set expandtab
 
-au BufRead,BufNewFile *.jimple set filetype=java 
-au BufRead,BufNewFile *.grimple set filetype=java 
+au BufRead,BufNewFile *.jimple set filetype=java
+au BufRead,BufNewFile *.grimple set filetype=java
 
 if !has("gui_running")
   set term=screen-256color
@@ -116,12 +115,16 @@ let g:acp_enableAtStartup = 0
 " Use neocomplcache.
 let g:neocomplcache_enable_at_startup = 1
 
-" python-mode options
-let g:pymode_options_max_line_length = 99
-let g:pymode_lint_checkers = ['pyflakes']
-let g:pymode_rope_complete_on_dot = 0
-let g:pymode_rope = 0
-let g:pymode_indent = 0
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
-" jshint options
-let JSHintUpdateWriteOnly = 1
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+let g:syntastic_python_checkers = ['pyflakes']
+
+let g:airline#extensions#tabline#enabled = 1
+set laststatus=2
+
