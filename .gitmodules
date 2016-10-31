@@ -52,3 +52,9 @@
 [submodule "bundle/jshint.vim"]
 	path = bundle/jshint.vim
 	url = https://github.com/wookiehangover/jshint.vim.git
+[submodule "bundle/vim-lilypond"]
+	path = bundle/vim-lilypond
+	url = https://github.com/matze/vim-lilypond
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline

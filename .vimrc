@@ -1,4 +1,5 @@
 set rtp+=/opt/twitter/lib/python2.7/site-packages/powerline/bindings/vim
+set shell=/usr/local/bin/zsh
 set nocompatible
 set modeline
 
@@ -21,6 +22,7 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 set hidden        " hides buffers instead of closing them
 set nowrap        " don't wrap lines
 set tabstop=2     " a tab is two spaces
+set softtabstop=2 " a tab is two spaces
 set expandtab     " always use spaces instead of tabs
 set backspace=indent,eol,start
                   " allow backspacing over everything in insert mode
@@ -38,6 +40,8 @@ set smarttab      " insert tabs on the start of a line according to
                   "    shiftwidth, not tabstop
 set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
+set tabpagemax=100 " 100 tabs
+set nofoldenable
 
 set history=1000         " remember more commands and search history
 set undolevels=1000      " use many muchos levels of undo
@@ -50,8 +54,12 @@ set title                " change the terminal's title
 " set guifontwide=MingLiU:h10 "For windows to display mixed character sets
 " set encoding=utf-8
 
+filetype plugin on
 filetype plugin indent on
 autocmd filetype python set expandtab
+
+au BufRead,BufNewFile *.jimple set filetype=java 
+au BufRead,BufNewFile *.grimple set filetype=java 
 
 if !has("gui_running")
   set term=screen-256color
@@ -110,7 +118,10 @@ let g:neocomplcache_enable_at_startup = 1
 
 " python-mode options
 let g:pymode_options_max_line_length = 99
-let g:pymode_lint_ignore = 'E251'
+let g:pymode_lint_checkers = ['pyflakes']
+let g:pymode_rope_complete_on_dot = 0
+let g:pymode_rope = 0
+let g:pymode_indent = 0
 
 " jshint options
-let JSHintUpdateWriteOnly=1
+let JSHintUpdateWriteOnly = 1
