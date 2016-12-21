@@ -128,3 +128,5 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
+
+let g:jedi#popup_on_dot = 0
