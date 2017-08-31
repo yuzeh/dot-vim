@@ -126,7 +126,18 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ['pyflakes']
 let g:syntastic_javascript_checkers = ['eslint']
 
+let g:syntastic_mode_map = {
+      \ "mode": "active",
+      \ "passive_filetypes": ["cpp"],
+      \ "active_filetypes":[] }
+
+let g:syntastic_cpp_compiler_options = '-std=c++11'
+
+nmap <silent> <leader>ss :SyntasticCheck<CR>
+
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
 
 let g:jedi#popup_on_dot = 0
+let g:jedi#completions_command = "<C-N>"
+
