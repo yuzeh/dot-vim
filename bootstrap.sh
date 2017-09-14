@@ -15,3 +15,5 @@ cd $work_dir
 git submodule init
 git submodule update
 cd
+
+ln -s $work_dir/.vimrc $HOME/.vimrc
