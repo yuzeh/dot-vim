@@ -109,5 +109,14 @@ set statusline+=%#warningmsg#
 set statusline+=%*
 
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#ale#enabled = 1
+
 let g:airline_solarized_bg = 'dark'
-set laststatus=2
+set laststatus=1
+
+" ale (linting) settings
+let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_enter = 0
+
+let g:ale_python_pylint_options = '--disable=R'
+let g:ale_echo_msg_format = '%linter%: %s'

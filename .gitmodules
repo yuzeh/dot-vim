@@ -19,3 +19,6 @@
 [submodule "pack/yuzeh/start/vim-polyglot"]
 	path = pack/yuzeh/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
+[submodule "pack/yuzeh/start/ale"]
+	path = pack/yuzeh/start/ale
+	url = https://github.com/w0rp/ale.git
