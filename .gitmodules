@@ -1,22 +1,9 @@
-[submodule "bundle/vim-latex"]
-	path = pack/yuzeh/start/vim-latex
-	url = https://github.com/jcf/vim-latex.git
-[submodule "bundle/vim-markdown"]
-	path = pack/yuzeh/start/vim-markdown
-	url = https://github.com/tpope/vim-markdown.git
 [submodule "bundle/mustache"]
 	path = pack/yuzeh/start/mustache
 	url = git://github.com/mustache/vim-mode.git
 [submodule "bundle/vim-repeat"]
 	path = pack/yuzeh/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
-[submodule "bundle/vim-surround"]
-	path = pack/yuzeh/start/vim-surround
-	url = https://github.com/tpope/vim-surround
-[submodule "bundle/vim-clojure-static"]
-	path = pack/yuzeh/start/vim-clojure-static
-	url = https://github.com/guns/vim-clojure-static.git
-	ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = pack/yuzeh/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -26,21 +13,6 @@
 [submodule "bundle/julia-vim"]
 	path = pack/yuzeh/start/julia-vim
 	url = git://github.com/JuliaLang/julia-vim.git
-[submodule "bundle/vim-jade"]
-	path = pack/yuzeh/start/vim-jade
-	url = git://github.com/digitaltoad/vim-jade.git
-[submodule "bundle/vim-javascript"]
-	path = pack/yuzeh/start/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
-[submodule "bundle/vim-less"]
-	path = pack/yuzeh/start/vim-less
-	url = https://github.com/groenewege/vim-less.git
-[submodule "bundle/vim-jsx"]
-	path = pack/yuzeh/start/vim-jsx
-	url = https://github.com/mxw/vim-jsx.git
-[submodule "bundle/vim-lilypond"]
-	path = pack/yuzeh/start/vim-lilypond
-	url = https://github.com/matze/vim-lilypond
 [submodule "bundle/vim-airline"]
 	path = pack/yuzeh/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
