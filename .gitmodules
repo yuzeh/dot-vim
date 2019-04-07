@@ -1,61 +1,49 @@
-[submodule "bundle/thrift.vim"]
-	path = bundle/thrift.vim
-	url = https://github.com/sprsquish/thrift.vim.git
 [submodule "bundle/vim-latex"]
-	path = bundle/vim-latex
+	path = pack/yuzeh/start/vim-latex
 	url = https://github.com/jcf/vim-latex.git
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
+	path = pack/yuzeh/start/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
-[submodule "vim-fugitive"]
-	path = bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/mustache"]
-	path = bundle/mustache
+	path = pack/yuzeh/start/mustache
 	url = git://github.com/mustache/vim-mode.git
 [submodule "bundle/vim-repeat"]
-	path = bundle/vim-repeat
+	path = pack/yuzeh/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+	path = pack/yuzeh/start/vim-surround
 	url = https://github.com/tpope/vim-surround
 [submodule "bundle/vim-clojure-static"]
-	path = bundle/vim-clojure-static
+	path = pack/yuzeh/start/vim-clojure-static
 	url = https://github.com/guns/vim-clojure-static.git
 	ignore = dirty
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+	path = pack/yuzeh/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/vim-fireplace"]
-	path = bundle/vim-fireplace
+	path = pack/yuzeh/start/vim-fireplace
 	url = git://github.com/tpope/vim-fireplace.git
 [submodule "bundle/julia-vim"]
-	path = bundle/julia-vim
+	path = pack/yuzeh/start/julia-vim
 	url = git://github.com/JuliaLang/julia-vim.git
 [submodule "bundle/vim-jade"]
-	path = bundle/vim-jade
+	path = pack/yuzeh/start/vim-jade
 	url = git://github.com/digitaltoad/vim-jade.git
 [submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
+	path = pack/yuzeh/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
 [submodule "bundle/vim-less"]
-	path = bundle/vim-less
+	path = pack/yuzeh/start/vim-less
 	url = https://github.com/groenewege/vim-less.git
 [submodule "bundle/vim-jsx"]
-	path = bundle/vim-jsx
+	path = pack/yuzeh/start/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
 [submodule "bundle/vim-lilypond"]
-	path = bundle/vim-lilypond
+	path = pack/yuzeh/start/vim-lilypond
 	url = https://github.com/matze/vim-lilypond
 [submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
+	path = pack/yuzeh/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
-[submodule "bundle/jedi-vim"]
-	path = bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "pack/yuzeh/start/flattened"]
+	path = pack/yuzeh/start/flattened
+	url = https://github.com/romainl/flattened.git

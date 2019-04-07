@@ -5,12 +5,6 @@ set modeline
 let g:is_bash = 1
 let g:clojure_align_multiline_strings = 1
 
-" Use pathogen to easily modify the runtime path to include all
-" plugins under the ~/.vim/bundle directory
-call pathogen#infect()
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
-
 " change the mapleader from \ to ,
 let mapleader=","
 
@@ -64,12 +58,8 @@ if !has("gui_running")
   set term=screen-256color
 endif
 
-
 if &t_Co >= 256 || has("gui_running")
-  let g:solarized_termcolors=256
-  let g:solarized_termtrans=1
-  set background=dark
-  colorscheme solarized
+  colorscheme flattened_dark
 endif
 
 if &t_Co > 2 || has("gui_running")
@@ -116,28 +106,8 @@ let g:acp_enableAtStartup = 0
 let g:neocomplcache_enable_at_startup = 1
 
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-let g:syntastic_python_checkers = ['pyflakes']
-let g:syntastic_javascript_checkers = ['eslint']
-
-let g:syntastic_mode_map = {
-      \ "mode": "active",
-      \ "passive_filetypes": ["cpp"],
-      \ "active_filetypes":[] }
-
-let g:syntastic_cpp_compiler_options = '-std=c++11'
-
-nmap <silent> <leader>ss :SyntasticCheck<CR>
-
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_solarized_bg = 'dark'
 set laststatus=2
-
-let g:jedi#popup_on_dot = 0
-let g:jedi#completions_command = "<C-N>"
-
