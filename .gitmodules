@@ -10,12 +10,12 @@
 [submodule "bundle/vim-fireplace"]
 	path = pack/yuzeh/start/vim-fireplace
 	url = git://github.com/tpope/vim-fireplace.git
-[submodule "bundle/julia-vim"]
-	path = pack/yuzeh/start/julia-vim
-	url = git://github.com/JuliaLang/julia-vim.git
 [submodule "bundle/vim-airline"]
 	path = pack/yuzeh/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 [submodule "pack/yuzeh/start/flattened"]
 	path = pack/yuzeh/start/flattened
 	url = https://github.com/romainl/flattened.git
+[submodule "pack/yuzeh/start/vim-polyglot"]
+	path = pack/yuzeh/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
